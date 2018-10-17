@@ -1,0 +1,11 @@
+set number
+set wrap
+set linebreak
+set nolist
+set mouse=a
+set hlsearch
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set autoindent

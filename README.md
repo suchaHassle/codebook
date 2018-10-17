@@ -1,2 +1,1 @@
-# codebook
-ICPC codebook
+This is a fork of University of Toronto's codebook adapted for myself. Contains a few shorthands and additional algorithms.
