@@ -2,7 +2,8 @@ ll _sieve_size;
 bitset<10000010> bs; // #include <bitset>
 vi primes;
 
-void sieve(ll upperbound) {
+// call this first!!!!!
+void sieve(ll upperbound) { // can go up to 10^7 (need few seconds)
   _sieve_size = upperbound + 1;
   bs.set();
   bs[0] = bs[1] = 0;

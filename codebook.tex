@@ -114,7 +114,7 @@ incident upon it and add it to the edge set.
 \subsection{Eulerian path} % Andre Hahn Pereira
 \lstinputlisting[language=c++]{eulerian.cpp}
 
-\subsection{Lowest Common Ancestor (Pseudocode)} % Jacob Plachta
+\subsection{Lowest Common Ancestor} % Jacob Plachta
 Tarjan's offline algorithm (requires $O(N)$ disjoint set operations).
 \begin{lstlisting}
 function TarjanOLCA(u)
@@ -138,10 +138,16 @@ common ancestor of the pair {u,v} is available as Find(v).ancestor immediately
 Otherwise, it will be available later as Find(u).ancestor, immediately after v
 is colored black.
 
+LCA reduced to RMQ linear time:
+\lstinputlisting[language=c++]{lca.cpp}
+
 \section{Data Structures}
 
 \subsection{UFDS} % Stanford
 \lstinputlisting[language=c++]{ufds.cpp}
+
+\subsection{Sparse Table}
+\lstinputlisting[language=c++]{sparsetable.cpp}
 
 \subsection{Suffix arrays} % Stanford
 \lstinputlisting[language=c++]{suffix-array.cpp}
