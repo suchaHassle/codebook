@@ -1,0 +1,1 @@
+#define MOD(a,b) ((b+(a%b))%b)
