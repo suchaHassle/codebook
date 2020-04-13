@@ -1,1 +1,1 @@
-This is a fork of University of Toronto's codebook adapted for myself. Contains a few shorthands and additional algorithms.
+[Brian Bi](https://github.com/t3nsor/codebook)'s codebook with some changes
